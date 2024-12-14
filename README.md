@@ -21,6 +21,7 @@ Example: `npx vite build --outDir docs`
 I use "docs" to use these files in the GitHub Pages.
 
 I also recommend to change the links in index.html to point to the correct location of the files from absolute to relative.
+
 Example: `<script type="module" crossorigin src="/assets/index-ItU2MGZi.js"></script>` to `<script type="module" crossorigin src="./assets/index-ItU2MGZi.js"></script>`
 
 ---
