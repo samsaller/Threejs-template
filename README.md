@@ -10,7 +10,7 @@ Three.js starting template
 
 ---
 ## Project Structure
-1. Commented code for enabling double click full screen
+Commented code for enabling double click full screen
 
 ---
 ## Building
