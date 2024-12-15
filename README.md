@@ -10,6 +10,8 @@ Three.js starting template
 
 ---
 ## Project Structure
+Default cube with normal material
+
 Commented code for enabling double click full screen
 
 ---

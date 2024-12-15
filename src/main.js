@@ -7,6 +7,17 @@ const clock = new THREE.Clock();
 var delta = null;
 var elapsedTime = null;
 
+// 
+// ==========Default Cube============
+// 
+camera.position.z = 2
+camera.position.x = 2
+camera.position.y = 2
+scene.add(new THREE.Mesh(new THREE.BoxGeometry(1, 1, 1), new THREE.MeshNormalMaterial()))
+// 
+// ==================================
+// 
+
 const tick = () => {
     delta = clock.getDelta();
     elapsedTime = clock.getElapsedTime();
