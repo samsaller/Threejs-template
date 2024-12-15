@@ -51,7 +51,7 @@ const handleClick = (e) => {
     pointer.y = -((e.clientY / sizes.height) * 2 - 1);
 
     rayCaster.setFromCamera(pointer, camera);
-    const intersections = rayCaster.intersectObjects(group.children);
+    const intersections = rayCaster.intersectObjects(scene.children);
 
     //
     // Your code for mouse clicks on objects here
