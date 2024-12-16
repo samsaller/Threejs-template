@@ -18,6 +18,7 @@ const init = () => {
 
     const renderer = new THREE.WebGLRenderer({ antialias: true, canvas });
     renderer.setSize(sizes.width, sizes.height);
+    renderer.setPixelRatio(window.devicePixelRatio)
     renderer.render(scene, camera);
 
     console.log("Sucessful scene initializing")

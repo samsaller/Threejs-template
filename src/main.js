@@ -1,5 +1,6 @@
 import * as THREE from "three";
 import init from "./init.js";
+import "./style.css"
 
 const { scene, canvas, sizes, camera, renderer, controls } = init();
 
@@ -40,6 +41,7 @@ window.addEventListener("resize", (e) => {
 
     camera.aspect = sizes.width / sizes.height;
     camera.updateProjectionMatrix();
+    renderer.setPixelRatio(window.devicePixelRatio)
     renderer.setSize(sizes.width, sizes.height);
 });
 
